@@ -36,7 +36,7 @@ def bison_register_toolchains(version = DEFAULT_VERSION):
     native.register_toolchains("@rules_bison//bison/toolchains:v{}".format(version))
 
 _SRC_EXT = {
-    "c": "c",
+    "c": "cc",
     "c++": "cc",
     "java": "java",
 }
